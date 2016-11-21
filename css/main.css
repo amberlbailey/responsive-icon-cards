@@ -38,6 +38,10 @@ ul {
   padding: 0;
 }
 
+.card-body p {
+  font-weight: normal;
+}
+
 @media only screen and (min-width: 20em) {
 
   .card-img {

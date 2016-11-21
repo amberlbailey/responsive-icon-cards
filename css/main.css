@@ -54,6 +54,51 @@ ul {
     margin: 0;
   }
 
+}
 
+@media only screen and (min-width: 25em) {
+
+  .card-img {
+    display: inline-block;
+    transform: none;
+  }
+
+  .card {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .card-body {
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.6;
+  }
 
 }

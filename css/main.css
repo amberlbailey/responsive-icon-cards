@@ -16,3 +16,44 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.cards {
+  list-style-type: none;
+  margin: 0;
+}
+
+.card-img img {
+  width: 50px;
+}
+
+.card-body h2 {
+  font-weight: normal;
+}
+
+.card {
+  display: block;
+}
+
+ul {
+  padding: 0;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .card-img {
+    transform: translateX(40%);
+    margin: 1em 0;
+  }
+
+  ul h2 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  ul p {
+    margin: 0;
+  }
+
+
+
+}

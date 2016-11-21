@@ -85,6 +85,25 @@ ul {
 
 }
 
+@media only screen and (min-width: 40em) {
+
+  .card {
+    width: 30%;
+  }
+
+  .card-body {
+    display: block;
+    position: relative;
+    margin-left: 4px;
+  }
+
+  .card-img {
+    display: inline-block;
+    transform: translateX(55%);
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   html {
